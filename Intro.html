@@ -1,7 +1,121 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<head>
+<style>
+@media screen and (min-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+.s1 {
+    background-color: rgb(245, 240, 230);
+}
+.s2 {
+    background-image: url(bg-orbs-1.jpg);
+    color: white;
+}
+.s3 {
+    background-color: rgb(245, 240, 230);
+}
+.grid-container {
+    display: grid;
+    gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-height: 500px;
+    overflow-y: auto;
+    color: white;
+    background-color: rgb(245, 240, 230);
+}
+.g1 {
+    background-color: #182b49;
+    overflow: hidden;
+    max-height: 500px;
+    overflow-y: auto;
+    text-align: center;
+}
+div {
+    scroll-margin-top: 136.5px;
+    display:inline-block;
+    width:100%;
+    font-size: 28px;
+}
+ul {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    list-style-type: none;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+li {float:left;}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding: 14px 7px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #182b49;
+    color: white;
+}
+</style>
+</head>
+
 <html>
     <body>
-        <h2>Heading 2</h2>
-        <p>Hello world!</p>
+
+        <ul>
+            <div>
+            <img src="logo_UCSD.png" alt="UCSD Logo" width = 90% max-width = "100%" >
+            <li><a href="#S1">Section 1</a></li>
+            <li><a href="#S2">Section 2</a></li>
+            <li><a href="#S3">Section 3</a></li>
+        </ul>
+
+        <div class = "s1">
+            <h2 id="S1">Section 1</h2>
+            <img src="ucsd-athletics-logo.svg" alt="UCSD Logo" max-width="100%">
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Class nunc posuere curae dignissim ultrices eleifend pulvinar. Semper dui metus tincidunt justo consequat gravida. Sociosqu vehicula fringilla, dui pretium luctus conubia proin. Conubia penatibus egestas felis laoreet senectus habitant scelerisque nunc. Luctus dictum urna libero fermentum pretium est? Tempor tortor curae in euismod venenatis inceptos tincidunt quis.
+                Primis arcu aenean a odio elit volutpat metus. Pretium erat volutpat augue praesent malesuada pulvinar.</p>
+        </div>
+
+        <div class = "s2">
+            <h2 id="S2">Section 2</h2>
+            <img src="logos-college-logos-07-23.svg" alt="UCSD Logo" max-width="100%">
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Class nunc posuere curae dignissim ultrices eleifend pulvinar. Semper dui metus tincidunt justo consequat gravida. Sociosqu vehicula fringilla, dui pretium luctus conubia proin. Conubia penatibus egestas felis laoreet senectus habitant scelerisque nunc. Luctus dictum urna libero fermentum pretium est? Tempor tortor curae in euismod venenatis inceptos tincidunt quis.
+                Primis arcu aenean a odio elit volutpat metus. Pretium erat volutpat augue praesent malesuada pulvinar.</p>
+        </div>
+
+        <div class="s3">
+            <h2 id = "S3">Section 3</h2>
+            <div class="grid-container">
+                <div class="g1">
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Class nunc posuere curae dignissim ultrices eleifend pulvinar. Semper dui metus tincidunt justo consequat gravida. Sociosqu vehicula fringilla, dui pretium luctus conubia proin. Conubia penatibus egestas felis laoreet senectus habitant scelerisque nunc. Luctus dictum urna libero fermentum pretium est? Tempor tortor curae in euismod venenatis inceptos tincidunt quis.
+Primis arcu aenean a odio elit volutpat metus. Pretium erat volutpat augue praesent malesuada pulvinar. Cubilia platea ridiculus augue auctor diam iaculis duis ut? Molestie eget phasellus enim nec torquent. Iaculis consectetur hendrerit maecenas ex senectus varius. Maximus cubilia enim augue; augue nascetur nullam egestas per purus. Sagittis habitant finibus adipiscing platea sollicitudin montes. Ornare justo mus gravida auctor cubilia eget. Cubilia interdum cursus ipsum; euismod eget mi.
+Placerat rhoncus interdum elit inceptos ridiculus id. Lacinia rhoncus finibus ante quis arcu ad eleifend diam dignissim. Orci est vitae dignissim in sed imperdiet. Viverra vel aenean mauris turpis montes posuere. Vestibulum curae sodales phasellus ultricies diam fringilla arcu litora egestas. Sagittis elementum purus et; aenean gravida pharetra. Suscipit aptent aptent id arcu augue. Felis enim varius nam mauris molestie facilisis.
+Risus aenean venenatis vivamus augue id tincidunt malesuada. Quis orci tellus aenean conubia id maecenas habitant. Pellentesque nullam morbi cubilia nulla tempus maecenas. Fringilla adipiscing egestas interdum vitae habitant aenean. Est sed cras pretium eget nostra justo. Tempor montes felis sed gravida tristique est tempus. Diam senectus netus consectetur eget tempus torquent nam.
+Netus enim orci a nulla, enim tincidunt turpis. Curabitur pretium ad erat phasellus montes primis ex. Ligula mauris elit iaculis sem eu urna massa lacinia viverra. Bibendum per ullamcorper per duis nisi nunc turpis. Mollis mus placerat faucibus dignissim placerat posuere suscipit pharetra posuere. Sit quis blandit leo enim maecenas placerat elementum luctus. Class mi mus lobortis integer montes varius.
+                </div>
+                <div class="g1">Lorem ipsum odor amet, consectetuer adipiscing elit. Class nunc posuere curae dignissim ultrices eleifend pulvinar. Semper dui metus tincidunt justo consequat gravida. Sociosqu vehicula fringilla, dui pretium luctus conubia proin. Conubia penatibus egestas felis laoreet senectus habitant scelerisque nunc. Luctus dictum urna libero fermentum pretium est? Tempor tortor curae in euismod venenatis inceptos tincidunt quis.
+                    Primis arcu aenean a odio elit volutpat metus. Pretium erat volutpat augue praesent malesuada pulvinar. Cubilia platea ridiculus augue auctor diam iaculis duis ut? Molestie eget phasellus enim nec torquent. Iaculis consectetur hendrerit maecenas ex senectus varius. Maximus cubilia enim augue; augue nascetur nullam egestas per purus. Sagittis habitant finibus adipiscing platea sollicitudin montes. Ornare justo mus gravida auctor cubilia eget. Cubilia interdum cursus ipsum; euismod eget mi.
+                    Placerat rhoncus interdum elit inceptos ridiculus id. Lacinia rhoncus finibus ante quis arcu ad eleifend diam dignissim. Orci est vitae dignissim in sed imperdiet. Viverra vel aenean mauris turpis montes posuere. Vestibulum curae sodales phasellus ultricies diam fringilla arcu litora egestas. Sagittis elementum purus et; aenean gravida pharetra. Suscipit aptent aptent id arcu augue. Felis enim varius nam mauris molestie facilisis.
+                    Risus aenean venenatis vivamus augue id tincidunt malesuada</div>
+                <div class="g1">Lorem ipsum odor amet, consectetuer adipiscing elit. Class nunc posuere curae dignissim ultrices eleifend pulvinar. Semper dui metus tincidunt justo consequat gravida. Sociosqu vehicula fringilla, dui pretium luctus conubia proin. Conubia penatibus egestas felis laoreet senectus habitant scelerisque nunc. Luctus dictum urna libero fermentum pretium est? Tempor tortor curae in euismod venenatis inceptos tincidunt quis.
+                    Primis arcu aenean a odio elit volutpat metus. Pretium erat volutpat augue praesent malesuada pulvinar. Cubilia platea ridiculus augue auctor diam iaculis duis ut? Molestie eget phasellus enim nec torquent. Iaculis consectetur hendrerit maecenas ex senectus varius. Maximus cubilia enim augue; augue nascetur nullam egestas per purus. Sagittis habitant finibus adipiscing platea sollicitudin montes. Ornare justo mus gravida auctor cubilia eget. Cubilia interdum cursus ipsum; euismod eget mi.
+                    Placerat rhoncus interdum elit inceptos ridiculus id. Lacinia rhoncus finibus ante quis arcu ad eleifend diam dignissim. Orci est vitae dignissim in sed imperdiet. Viverra vel aenean mauris turpis montes posuere. Vestibulum curae sodales phasellus ultricies diam fringilla arcu litora egestas. Sagittis elementum purus et; aenean gravida pharetra. Suscipit aptent aptent id arcu augue. Felis enim varius nam mauris molestie facilisis.
+                    Risus aenean venenatis vivamus augue id tincidunt malesuada</div>
+                <div class="g1">Lorem ipsum odor amet, consectetuer adipiscing elit. Class nunc posuere curae dignissim ultrices eleifend pulvinar. Semper dui metus tincidunt justo consequat gravida. Sociosqu vehicula fringilla, dui pretium luctus conubia proin. Conubia penatibus egestas felis laoreet senectus habitant scelerisque nunc. Luctus dictum urna libero fermentum pretium est? Tempor tortor curae in euismod venenatis inceptos tincidunt quis.
+                    Primis arcu aenean a odio elit volutpat metus. Pretium erat volutpat augue praesent malesuada pulvinar. Cubilia platea ridiculus augue auctor diam iaculis duis ut? Molestie eget phasellus enim nec torquent. Iaculis consectetur hendrerit maecenas ex senectus varius. Maximus cubilia enim augue; augue nascetur nullam egestas per purus. Sagittis habitant finibus adipiscing platea sollicitudin montes. Ornare justo mus gravida auctor cubilia eget. Cubilia interdum cursus ipsum; euismod eget mi.
+                    Placerat rhoncus interdum elit inceptos ridiculus id. Lacinia rhoncus finibus ante quis arcu ad eleifend diam dignissim. Orci est vitae dignissim in sed imperdiet. Viverra vel aenean mauris turpis montes posuere. Vestibulum curae sodales phasellus ultricies diam fringilla arcu litora egestas. Sagittis elementum purus et; aenean gravida pharetra. Suscipit aptent aptent id arcu augue. Felis enim varius nam mauris molestie facilisis.
+                    Risus aenean venenatis vivamus augue id tincidunt malesuada</div>
+            </div>
+        </div>
+
     </body>
 </html>
